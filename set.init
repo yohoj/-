@@ -1,0 +1,12 @@
+listen_port=8888
+max_thread=10
+audio_type=alsa   / /dev/audio
+video_width=640
+video_height=480
+video_format=JPEG(JPEG, YUYV, RGB)
+username=fang
+password=123456
+zigbee_dev=/dev/ttyS0
+zigbee_data=8N1 / 8O1 /8E1 /8S1
+zigbee_speed=9611
+zigbee_flow_control=0

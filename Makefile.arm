@@ -1,0 +1,9 @@
+TARGET=Ihome
+OBJS=main.o sconfig.o slog.o ssocket.o
+CC=arm-linux-gcc
+CXX=arm-linux-g++
+
+Ihome:$(OBJS)
+	$(CXX) $(OBJS) -o $(TARGET) 
+clean:
+	rm -f $(OBJS) $(TARGET)
